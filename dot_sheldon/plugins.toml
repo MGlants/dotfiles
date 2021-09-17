@@ -1,8 +1,3 @@
-[".oh-my-zsh"]
-    type = "archive"
-    url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
 [".oh-my-zsh/custom/plugins/zsh-history-substring-search"]
     type = "archive"
     url = "https://github.com/zsh-users/zsh-history-substring-search/archive/master.tar.gz"
@@ -38,8 +33,8 @@
     url = "https://github.com/agkozak/zsh-z/archive/master.tar.gz"
     exact = true
     stripComponents = 1
-[".oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+[".oh-my-zsh/custom/plugins/zsh-autoswitch-virtualenv"]
     type = "archive"
-    url = "https://github.com/zsh-users/zsh-autosuggestions/archive/master.tar.gz"
+    url = "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv/archive/master.tar.gz"
     exact = true
     stripComponents = 1
