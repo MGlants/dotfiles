@@ -69,7 +69,7 @@ plugins=(
   zsh-autosuggestions
   zsh-completions
   history-substring-search
-  autojump
+  zsh-z
   git
   terraform
   docker

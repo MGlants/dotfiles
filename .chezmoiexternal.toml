@@ -23,3 +23,8 @@
     url = "https://github.com/zsh-users/zsh-completions/archive/master.tar.gz"
     exact = true
     stripComponents = 1
+[".oh-my-zsh/custom/plugins/zsh-z"]
+    type = "archive"
+    url = "https://github.com/agkozak/zsh-z/archive/master.tar.gz"
+    exact = true
+    stripComponents = 1
