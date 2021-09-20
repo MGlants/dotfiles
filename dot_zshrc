@@ -75,7 +75,7 @@ plugins=(
   docker
   colorize
   fzf-tab
-  zsh-background-notify
+  bgnotify
   zsh-autoswitch-virtualenv
   forgit
 )
