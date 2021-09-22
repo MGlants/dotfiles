@@ -109,6 +109,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ap='ansible-playbook'
 alias khome='export KUBECONFIG=$HOME/GIT/sweethome/sweethome-deploy/k3s/config'
+alias ycauth='export YC_TOKEN=$(yc iam create-token)'
 # Custom Prompts 
 if [ -x "$(command -v starship)" ]
 then
