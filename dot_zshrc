@@ -95,7 +95,7 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   export EDITOR='code -w'
 fi
-
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
