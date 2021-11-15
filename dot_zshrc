@@ -68,7 +68,6 @@ plugins=(
   zsh-autosuggestions
   zsh-completions
   zsh-history-substring-search
-  history-substring-search
   zsh-z
   git
   terraform
