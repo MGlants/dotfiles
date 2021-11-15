@@ -62,13 +62,12 @@ HYPHEN_INSENSITIVE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  zsh-history-substring-search
   ansible
   kubectl
   fast-syntax-highlighting
   zsh-autosuggestions
   zsh-completions
-  history-substring-search
+  zsh-history-substring-search
   zsh-z
   git
   terraform
@@ -95,7 +94,7 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   export EDITOR='code -w'
 fi
-
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -120,3 +119,4 @@ if [ -x "$(command -v starship)" ]
 then
 	eval "$(starship init zsh)"
 fi
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
