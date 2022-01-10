@@ -64,7 +64,7 @@ HYPHEN_INSENSITIVE="true"
 plugins=(
   ansible
   kubectl
-  fast-syntax-highlighting
+  zsh-syntax-highlighting
   zsh-autosuggestions
   zsh-completions
   zsh-history-substring-search
