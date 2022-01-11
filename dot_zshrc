@@ -65,6 +65,7 @@ export PIPENV_VENV_IN_PROJECT=1
 plugins=(
   ansible
   kubectl
+  pipenv
   zsh-syntax-highlighting
   zsh-autosuggestions
   zsh-completions
