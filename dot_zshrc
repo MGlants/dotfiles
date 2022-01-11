@@ -76,6 +76,7 @@ plugins=(
   docker
   colorize
   fzf-tab
+  fzf
   bgnotify
   zsh-autoswitch-virtualenv
   forgit
@@ -116,6 +117,7 @@ alias t='terraform'
 alias ta='terraform apply'
 alias tp='terraform plan'
 alias td='terraform destroy'
+alias ff='code $(fzf)'
 # Custom Prompts 
 if [ -x "$(command -v starship)" ]
 then
