@@ -16,3 +16,4 @@ dot_oh-my-zsh
 dot_tmux
 dot_vim_runtime
 node_modules
+.oh-my-zsh/cache
